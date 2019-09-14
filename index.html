@@ -1,13 +1,60 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>MY FIRST SITE</title>
-  <meta name="description" content="MY FIRST SITE DESCRIPTION">
-  <meta name="author" content="MY NAME">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | MoviePass</title>
+  <link rel="stylesheet" href="styles/about.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <h1>Welcome!</h1>
-  <p>This is my first web-page!</p>
+  <div class="header">
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+        <a href="index.html">Movie<span>Pass</span></a>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html" class="nav-bar-links active">Home</a></li>
+          <li><a href="users.html" class="nav-bar-links">Users</a></li>
+          <li><a href="movies.html" class="nav-bar-links">Movies</a></li>
+          <li><a href="about.html" class="nav-bar-links">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="wide-image">
+    <div class="media-list">
+      <h1 id="title">Movie<span>Pass</span></h1>
+      <hr>
+      <h1 id="title-description">movies for everyone.</h1>
+    </div>
+  </div>
+  <div class="media-list">
+    <h1>Top Today</h1>
+    <span>
+      <a href="movies/1.html"><img class="media-content detail" src="images/movies/1.jpg" alt="Ocean's Eleven (2001)"
+          title="Ocean's Eleven (2001)"></a>
+    </span>
+    <span>
+      <a href="movies/2.html"><img class="media-content detail" src="images/movies/2.jpg" alt="Ocean's Twelve (2004)"
+          title="Ocean's Twelve (2001)"></a>
+    </span>
+    <span>
+      <a href="movies/3.html"><img class="media-content detail" src="images/movies/3.jpg" alt="Ocean's Thirteen (2007)"
+          title="Ocean's Thirteen (2007)"></a>
+    </span>
+  </div>
+
 </body>
+
 </html>

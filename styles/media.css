@@ -1,0 +1,52 @@
+@import "style.css";
+
+
+.media {
+    margin: 8px;
+    padding: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: left;
+}
+
+.media-left {
+    position: relative;
+    float: left;
+}
+
+.media-right {
+    padding-left: 16px;
+    max-width: 550px;
+}
+
+.media-content {
+    height: 209px;
+    width: 140px;
+    border-radius: 8px;
+    border: 2px solid #f2f2f2;
+}
+
+.detail {
+    width: 225px; 
+    height: 330px;
+}
+.heading-unit {
+    margin-top: 0px;
+    color: #666;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    color: #000;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.media:nth-child(odd) {
+    background-color: #f2f2f2;
+    border: 1px solid #E9E7E7;
+} 
